@@ -1,5 +1,8 @@
 body{
   font-family: "pretendard Variable", sans-serif;
+  word-break: keep-all;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .page-title{
@@ -86,4 +89,8 @@ body{
 .btn-gray:active{
   box-shadow: 0 4px 0 #dfe1e2;
   transform: translate(10px);
+}
+
+.img{
+  display: block;
 }
